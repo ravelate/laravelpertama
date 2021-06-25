@@ -1,0 +1,256 @@
+header {
+    background-color: lightgrey;
+    height: 120px;
+}
+.logo {
+    width: 5%;
+    height: 40%;
+    position: relative;
+    top: 15px;
+    left: 15px;
+}
+.judul {
+    position: relative;
+    text-align: center;
+}
+.btn {
+    position: relative;
+    text-align: right;
+}
+section {
+    border-style: dashed;
+    height: 200px;
+
+}
+.kiri {
+    width: 20%;
+    height: 800%;
+    background-color: lightslategrey;
+    position: relative;
+    float: left;
+}
+.tengah {
+    width: 60%;
+    height: 800%;
+    background-color: lavender;
+    position: relative;
+    float: left;
+}
+.kanan {
+    width: 20%;
+    height: 800%;
+    background-color: lightslategrey;
+    float: right;
+    position: relative;
+
+}
+.gambartengah {
+    width: 80%;
+    height: width;
+    align-items: center;
+    position: relative;
+    left: 7%;
+}
+.berita {
+    width: 70%;
+    height: width;
+    position: relative;
+    left: 10%;
+}
+.night{
+    background: black;
+    color :white;
+}
+.day{
+    background: white;
+    color: black;
+}
+footer {
+    background-color: chartreuse;
+    height: 40px;
+    text-align: center;
+    clear: both;
+}
+.switch {
+    position: relative;
+    display: inline-block;
+    width: 60px;
+    height: 34px;
+  }
+  
+  /* Hide default HTML checkbox */
+  .switch input {
+    opacity: 0;
+    width: 0;
+    height: 0;
+  }
+  
+  /* The slider */
+  .slider {
+    position: absolute;
+    cursor: pointer;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    background-color: #ccc;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  .slider:before {
+    position: absolute;
+    content: "";
+    height: 26px;
+    width: 26px;
+    left: 4px;
+    bottom: 4px;
+    background-color: white;
+    -webkit-transition: .4s;
+    transition: .4s;
+  }
+  
+  input:checked + .slider {
+    background-color: #2196F3;
+  }
+  
+  input:focus + .slider {
+    box-shadow: 0 0 1px #2196F3;
+  }
+  
+  input:checked + .slider:before {
+    -webkit-transform: translateX(26px);
+    -ms-transform: translateX(26px);
+    transform: translateX(26px);
+  }
+  
+  /* Rounded sliders */
+  .slider.round {
+    border-radius: 34px;
+  }
+  
+  .slider.round:before {
+    border-radius: 50%;
+  }
+
+  .todo{
+    left: -10%;
+    width: 100%;
+    position: absolute;
+    color: black;
+}
+
+.list-header{
+    left: -20%;
+    width: 10%;
+    display: flex;
+}
+
+.list-header h1{
+    font-size: 35px;
+    margin-top: 80px;
+    text-transform: uppercase;
+    position: relative;
+    left: 200px;
+}
+
+form input, form button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    border: none;
+    background: white;
+    position: relative; 
+    left: 170px;
+}
+
+form button{
+    color: #d88771;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
+form button:hover{
+    background: #d88771;
+    color: white;
+}
+
+.list-container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.film-list{
+  right: 150px;
+    list-style: none;
+    min-width: 34%;
+    position: relative;
+    font-size: 10px;
+}
+
+.film{
+    margin: 0.5rem;
+    background: white;
+    color: black;
+    font-size: 15px;
+    display: flex;  
+    justify-content: space-between;
+    align-items: center;
+    transition: all 0.5s ease;
+}
+
+.film li{
+    flex: 1;
+}
+
+.delete-btn{
+    background: #ff6f47;
+    color: white;
+    border: none;
+    padding: 1rem;
+    font-size: 1rem;
+    cursor: pointer;
+}
+
+.film-item{
+    padding: 0 5px;
+}
+
+.fa-trash{
+    pointer-events: none;
+}
+
+.throw{
+    transform: translateY(8rem) rotateZ(20deg);
+    opacity: 0;
+}
+
+.list-footer{
+    display: flex;
+      width: 50%;
+      margin-top: 100px;
+    margin-left: 210px;
+      align-items: center;
+      left: 10px;
+      justify-content: space-between;
+}
+
+.list-footer span, .list-footer p{
+    left: 100px;
+    font-size: 30px;
+}
+
+.clear-button{
+    padding: 0.5rem;
+    font-size: 1rem;
+    position: relative;
+    left: -460px;
+    border: none;
+    color: #d88771;
+    transition: all 0.3s ease;
+}
+
+.clear-button:hover{
+    background: #d88771;
+    color: white;
+}
